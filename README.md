@@ -22,8 +22,8 @@
 > ✔ todo localStorage 에 저장 및 관리<br />
 > ✔ todo count 관리<br />
 > 
-<br />
->#### 해야할 것
+
+>### 해야할 것
 
 > − todo 상태 추가<br />
 > − todoList 중 보고 싶은 상태(완료한 것/해야할 것)의 todo만 보여주기<br />
