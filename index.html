@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <section class="todoapp">
+            <header class="header">
+                <h1>TODOS</h1>
+                <input id="new-todo-title" class="new-todo" placeholder="할일을 추가해주세요" autofocus>
+            </header>
+
+            <section class="main">
+                <ul id="todo-list" class="todo-list">
+                    <!-- <li>
+                        <div class="view">
+                            <input class="toggle" type="checkbox">
+                            <label class="label">이벤트 문서 보기</label>
+                            <button class="destroy"></button>
+                        </div>
+                        <input class="edit" value="새로운 타이틀">
+                    </li> -->
+                </ul>
+            </section>
+
+            <section class="count-container">
+                <label class="todo-count">총 <strong></strong> 개</label>
+                <ul class="filters">
+                    <li>
+                        <a class="all selected">전체보기</a>
+                        <a class="doing">해야할 일</a>
+                        <a class="done">완료한 일</a>
+                    </li>
+                </ul>
+                
+            </section>
+
+        </section>
+        <script src="js/todoApp.js"></script>
+    </body>
+</html>
